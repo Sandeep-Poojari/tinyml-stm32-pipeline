@@ -1,0 +1,46 @@
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.cache
+
+# Model files (optional - avoid committing large files)
+models/trained/*.h5
+models/trained/*.keras
+
+# TFLite models (keep if small, otherwise uncomment below)
+# models/tflite/*.tflite
+
+# STM32 build artifacts
+stm32/**/build/
+stm32/**/Debug/
+stm32/**/Release/
+*.elf
+*.bin
+*.map
+
+# IDE
+.vscode/
+.idea/
