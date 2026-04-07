@@ -28,7 +28,7 @@ Thumbs.db
 
 # Model files (optional - avoid committing large files)
 models/trained/*.h5
-models/trained/*.keras
+
 
 # TFLite models (keep if small, otherwise uncomment below)
 # models/tflite/*.tflite
